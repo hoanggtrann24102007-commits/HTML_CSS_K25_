@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Đăng ký sinh viên mới</h1>
+    <form action="">
+        <label for="full_name">Họ và tên:</label>
+        <input id="full_name" placeholder="Nhập họ và tên">
+        <br><br>
+        <label for="date">Ngày sinh đầy đủ:</label>
+        <input id="date" type="date">
+        <br><br>
+        <label>Tháng và năm nhập học</label>
+        <input type="month" name="nhaphoc">
+        <br><br>
+        <label for="time">Thời gian học:</label>
+        <input id="time" type="time">
+        <br><br>
+        <label for="course">Giới tính:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Nam</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Nữ</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Khác</label>
+        <br><br>
+        <label for="email">Email sinh viên:</label>
+        <input id="email" type="email" placeholder="Nhập email" value="sinhvien@university.edu.vn">
+        <br><br>
+        <label for="password">Mật khẩu:</label>
+        <input id="password" type="password" placeholder="Nhập mật khẩu">
+        <br><br>
+        <label>Mục tiêu học tập</label>
+        <textarea name="muctieu" rows="3" cols="30">
+            Muốn trở thành lập trình viên giỏi và đóng góp cho xã hội
+    </textarea><br><br>
+      <label>Cơ sở</label>
+    <select name="coso">
+        <option>Hà Nội</option>
+        <option>TP. Hồ Chí Minh</option>
+        <option>Đà Nẵng</option>
+    </select>
+    <br><br>
+    <label for="file"></label>
+    Ảnh thẻ sinh viên:
+    <input type="file" id="file">Chưa chọn tệp nào được chọn
+    <br><br>
+    <label for="monhoc"></label>
+    Môn học yêu thích:
+    <input type="checkbox" id="monhoc" name="monhoc" value="html">Toán học
+    <input type="checkbox" id="monhoc" name="monhoc" value="css">Lâp trình 
+    <input type="checkbox" id="monhoc" name="monhoc" value="js">Tiếng anh 
+    <input type="checkbox" id="monhoc" name="monhoc" value="php">Vật lý
+    <br><br>
+    <label>Tiến độ học tập</label>
+    <input type="range" min="0" max="100"><br><br>
+     <label>Năm học thứ</label>
+    <input type="number" name="namhoc" value="2"><br><br>
+
+    <label>Tìm kiếm khóa học</label>
+    <input type="search" name="timkiem" value="Khoa học máy tính"><br><br>
+
+    <label>Màu sắc yêu thích</label>
+    <input type="color" ><br><br>
+        <button>Hủy</button>
+        <button>Làm mới</button>
+        <button>Gửi</button>
+        <br>
+    </form> 
+</body>
+</html>
