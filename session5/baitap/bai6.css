@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+}
+
+.doctor-container {
+    width: 420px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h2 {
+    color: #1e90ff; /* Màu chữ tiêu đề */
+    margin: 20px 0;
+}
+
+.doctor-card {
+    background-color: #e6f7ff;
+    padding: 20px;
+}
+
+.doctor-card img {
+    width: 180px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    padding: 10px;
+}
+
+/* Hover vào ảnh */
+.doctor-card img:hover {
+    background-color: #e6f7ff;
+}
+
+h3 {
+    color: #1e90ff;
+    margin-top: 15px;
+}
+
+.specialty {
+    font-size: 14px;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 8px 0;
+    font-size: 14px;
+}

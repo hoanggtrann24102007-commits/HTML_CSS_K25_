@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+}
+
+.form-container {
+    width: 360px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+h2 {
+    color: #1e90ff; /* Màu tiêu đề */
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    font-size: 14px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #1e90ff; /* Màu viền input */
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+textarea {
+    height: 80px;
+    resize: none;
+}
+
+button {
+    margin-top: 15px;
+    padding: 8px 15px;
+    background-color: #00bfff; /* Màu nút Gửi ý kiến */
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    opacity: 0.85;
+}

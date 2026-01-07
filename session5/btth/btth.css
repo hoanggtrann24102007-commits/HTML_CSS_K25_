@@ -1,0 +1,64 @@
+.header {
+    background-color: rgb(50, 185, 230);
+}
+header h1 {
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+}
+header p {
+    text-align: center;
+    font-style: italic;
+    color: white;
+    font-weight: 500;
+}
+/* css main  */
+.main h2 {
+    color: rgb(58, 171, 206);
+}
+.main p {
+    text-align: justify;
+}
+/* info */
+.info {
+    text-align: center;
+}
+/* action */
+.action h2 {
+    color: rgb(58, 171, 206);
+}
+
+
+.action p {
+    font-style: italic;
+    
+}
+/* services */
+.services h2 {
+    color: rgb(58, 171, 206);
+}
+.services ul {
+    list-style: none;
+}
+.services ul li:hover {
+    color: rgb(2, 132, 199);
+    cursor: pointer;
+    word-spacing: 3px;
+}
+.note h2 {
+   color: rgb(2, 132, 199);
+}
+.warning {
+    color: rgb(255, 0, 43);
+    font-style: italic;
+}
+.contact h2 {
+    color: rgb(2, 132, 199);
+}
+.footer {
+    background-color:  rgb(50, 185, 230);
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+
+}

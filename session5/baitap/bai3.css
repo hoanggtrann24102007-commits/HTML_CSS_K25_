@@ -1,0 +1,29 @@
+.service {
+    background-color: #f4f4f9;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.service h2 {
+    color: #1e90ff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.service-desc {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.service ul {
+    margin-left: 30px;
+}
+
+.service li {
+    margin-bottom: 5px;
+}
+
+.line-through {
+    text-decoration: line-through;
+}

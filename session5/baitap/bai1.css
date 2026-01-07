@@ -1,0 +1,14 @@
+.header {
+    background-color: #1eff29;
+
+}
+header h1 {
+    text-align: center;
+    color: black;
+}
+header p {
+    text-align: center;
+    font-style: italic;
+    color: black;
+    font-weight: 500;
+}
