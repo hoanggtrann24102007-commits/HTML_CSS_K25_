@@ -1,0 +1,78 @@
+body {
+    background-color: #111;
+    font-family: Arial, sans-serif;
+}
+
+/* Card chính */
+.card {
+    width: 350px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 50px auto;
+    position: relative; /* Để gắn HOT */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    padding-bottom: 30px;
+}
+
+/* Nhãn HOT */
+.hot {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Header */
+.card-header {
+    background-color: #3fffea;
+    text-align: center;
+    padding: 20px;
+    font-family: cursive;   /* Font cursive */
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 15px 15px 0 0;
+}
+
+/* Nội dung */
+.card-body {
+    padding: 20px;
+}
+
+.card-body p {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    color: #444;
+}
+
+.card-body p:last-child {
+    border-bottom: none;
+}
+
+/* Chữ nổi bật */
+.highlight {
+    color: #00b300;
+    font-weight: bold;
+}
+
+.price {
+    color: #00b300;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Nút đặt lịch */
+.btn {
+    display: block;
+    width: 80%;
+    margin: 20px auto 0;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    color: #000000;
+    background-color: #3fffea;
+}
